@@ -1,8 +1,8 @@
 Experiment 3: Study of List and Various Operations
 Student Details
-Name: Tannishtha Gupta
-PRN: 25070123049
-Batch: ENTC A3
+Name: Gayatri Bhosale
+PRN: 25070123033
+Batch: ENTC A2
 Aim
 To study the definition, creation, and manipulation of Lists in Python, and to implement various built-in list methods and operations to solve practical problem statements.
 
