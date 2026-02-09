@@ -1,35 +1,90 @@
-Experiment 3: Study of List and Various Operations
-Student Details
-Name: Gayatri Bhosale
-PRN: 25070123033
-Batch: ENTC A2
-Aim
+# Experiment 3: Study of List and Various Operations
+
+## Student Details
+- **Name:** Gayatri Bhosale  
+- **PRN:** 25070123033  
+- **Batch:** ENTC A2  
+
+---
+
+## Aim
 To study the definition, creation, and manipulation of Lists in Python, and to implement various built-in list methods and operations to solve practical problem statements.
 
-Theory
-A List in Python is a built-in data structure used to store multiple items in a single variable. Lists are one of the four built-in data types in Python used to store collections of data.
+---
 
-Key Characteristics of Lists:
+## Theory
+A **List** in Python is a built-in data structure used to store multiple items in a single variable. Lists are one of the four built-in data types in Python used to store collections of data.
 
-Ordered: The items have a defined order, and that order will not change.
-Mutable (Changeable): We can change, add, and remove items in a list after it has been created.
-Allow Duplicates: Since lists are indexed, they can have items with the same value.
-Heterogeneous: A list can contain elements of different data types (Integers, Strings, Booleans, etc.).
-Objectives & Scope
-This experiment covers the following operations: Creation: Defining lists with various data types. Indexing & Slicing: Accessing elements using positive and negative indices. Modification: Changing item values, appending, inserting, and extending lists. Analysis: performing operations like sort(), min(), max(), len(), and sum().
+### Key Characteristics of Lists
+- **Ordered:** Items have a defined order that does not change.
+- **Mutable:** Items can be changed, added, or removed after creation.
+- **Allows Duplicates:** Lists can contain elements with the same value.
+- **Heterogeneous:** A list can store elements of different data types such as integers, strings, and booleans.
 
-Code Implementation & Problem Statements
-The experiment solves the following 5 specific problem statements:
+---
 
-General List Operations Demonstration of basic functionalities including: Checking length (len()) Accessing items via index Reverse indexing List repetition Membership testing (in operator)
+## Objectives & Scope
+This experiment covers the following list operations:
+- **Creation:** Defining lists with various data types.
+- **Indexing & Slicing:** Accessing elements using positive and negative indices.
+- **Modification:** Changing item values, appending, inserting, and extending lists.
+- **Analysis:** Using built-in functions like `sort()`, `min()`, `max()`, `len()`, and `sum()`.
 
-Slicing Analysis Extracting specific sub-sets of data from a list of numbers: Extracting elements from index 1 to 3. Extracting the first three elements. Extracting elements from index 2 onwards.
+---
 
-Student Marks Analysis Input: A list of student marks. Operations: Find the Highest Mark. Find the Lowest Mark. Calculate the Average Mark. Sort the marks in ascending order.
+## Code Implementation & Problem Statements
+The experiment addresses the following five problem statements:
 
-Grocery List Management Input: A list of grocery items. Operations: Extend the list with new items. Remove specific items (e.g., "Masala"). Display the final updated list.
+### 1. General List Operations
+Demonstration of basic list functionalities:
+- Checking length using `len()`
+- Accessing items using indexing
+- Reverse indexing
+- List repetition
+- Membership testing using the `in` operator
 
-Contact List & Temperature Analysis Contact List: Managing a list of names by appending new contacts, removing specific names, and sorting them alphabetically. Temperature Analysis: Analyzing a 10-day temperature dataset to find the first 5 days, last 5 days, highest, lowest, and average temperatures.
+---
 
-Conclusion
-In this experiment, we successfully studied Python Lists. We learned how to create lists, access elements using slicing and indexing, and modify lists using methods like append(), insert(), and remove(). We also applied these concepts to analyze real-world data scenarios like student marks and grocery lists.
+### 2. Slicing Analysis
+Extracting specific subsets of data from a list:
+- Elements from index 1 to 3
+- First three elements
+- Elements from index 2 onwards
+
+---
+
+### 3. Student Marks Analysis
+**Input:** A list of student marks  
+**Operations:**
+- Find the highest mark
+- Find the lowest mark
+- Calculate the average mark
+- Sort marks in ascending order
+
+---
+
+### 4. Grocery List Management
+**Input:** A list of grocery items  
+**Operations:**
+- Extend the list with new items
+- Remove specific items (e.g., `"Masala"`)
+- Display the final updated list
+
+---
+
+### 5. Contact List & Temperature Analysis
+**Contact List Operations:**
+- Append new contacts
+- Remove specific contacts
+- Sort contacts alphabetically
+
+**Temperature Analysis:**
+- Analyze a 10-day temperature dataset
+- Display the first 5 days and last 5 days
+- Find highest and lowest temperatures
+- Calculate average temperature
+
+---
+
+## Conclusion
+In this experiment, Python Lists were successfully studied. We learned how to create lists, access elements using indexing and slicing, and modify lists using methods such as `append()`, `insert()`, and `remove()`. These concepts were applied to real-world data scenarios including student marks analysis, grocery list management, and temperature data evaluation.
